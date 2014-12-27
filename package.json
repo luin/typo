@@ -1,0 +1,21 @@
+{
+  "name": "typo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --harmony",
+    "test-cov": "NODE_ENV=test node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover --preserve-comments ./node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "author": "Luin",
+  "license": "MIT",
+  "dependencies": {
+    "harmony-proxy": "0.0.2",
+    "natural": "^0.1.29"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "^2.1.0"
+  }
+}
