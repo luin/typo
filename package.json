@@ -1,7 +1,7 @@
 {
   "name": "node-typo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Auto find the nearest property(or method) name of an wrapped object",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "istanbul-harmony": "^0.3.1",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "codeclimate-test-reporter": "0.0.4"
+  },
+  "engines": {
+    "node": ">= 0.11.13"
   }
 }
