@@ -1,6 +1,6 @@
 {
   "name": "node-typo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Auto find the nearest property(or method) name of an wrapped object",
   "main": "index.js",
   "repository": {
