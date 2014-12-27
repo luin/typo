@@ -19,12 +19,14 @@ To use this module you must be running node 0.11.13 or higher for proxy support
 Usage
 -----
 
+```javascript
 var typo = require('node-typo');
 var fs = typo.wrap(require('fs'));
 
 console.log(fs.exist === fs.exists); // true
 console.log(fs.exsit === fs.exists); // true
 console.log(fs.exsiiiiit === fs.exists); // false
+```
 
 WARN
 ----
