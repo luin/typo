@@ -14,6 +14,8 @@ Install
 npm install node-typo
 ```
 
+To use this module you must be running node 0.11.13 or higher for proxy support
+
 Usage
 -----
 
