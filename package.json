@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luin/typo.git"
+  },
+  "keywords": [
+    "typo"
+  ],
   "scripts": {
     "test": "NODE_ENV=test mocha --harmony",
     "test-cov": "NODE_ENV=test node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover --preserve-comments ./node_modules/mocha/bin/_mocha -- -R spec"
